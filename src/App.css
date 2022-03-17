@@ -1,0 +1,62 @@
+body {
+  background-color: black;
+}
+
+.app-wrapper {
+  margin: 0 auto;
+
+  width: 1300px;
+
+  background-color: black;
+  color: grey;
+}
+
+.app-wrapper-content {
+  padding: 10px;
+}
+
+.preloader {
+  width: 480px;
+  height: 360px;
+  margin-left: 400px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* .navFlex {
+  display: flex
+} */
+
+.display__block {
+  display: block;
+}
+
+.display__none {
+  display: none;
+}
+
+.social__network {
+  display: flex;
+  color: white;
+  text-align: right;
+}
+
+.social__network__link {
+  text-align: left;
+  margin-left: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.social__network__link {
+  margin-bottom: 10px;
+}
+
+.ditails {
+  color: white;
+  font-family: serif;
+}
+
+.social__network__link div a:hover {
+  color: rgb(240, 136, 9);
+}

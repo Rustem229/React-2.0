@@ -1,0 +1,152 @@
+.header {
+  grid-area: h;
+  background-color: #1e1e1e;
+  color: white;
+
+  margin-bottom: 0px;
+}
+/* 
+.header img {
+  width: 100px;
+  height: 100px;
+} */
+
+.logotype {
+  display: block;
+  margin: 5px 10px;
+  font-size: 35px;
+  padding-bottom: 7px;
+  padding-top: 5px;
+  font-family: serif;
+}
+
+.logo {
+  font-family: serif;
+}
+
+.Hub {
+  background-color: rgb(240, 136, 9);
+  color: black;
+  font-weight: 700;
+  padding: 3px;
+  padding-top: 0px;
+  border-radius: 7px;
+  margin-left: 3px;
+}
+
+.audio__container {
+  display: none;
+}
+
+.audio__flex {
+  position: relative;
+  display: flex;
+  float: right;
+}
+
+.audio {
+  width: 500px;
+  height: 20px;
+  margin: 20px;
+  margin-right: 0px;
+  margin-left: 5px;
+  border-radius: 0px;
+}
+
+.audio__flex button {
+  height: 23px;
+  margin-top: 19px;
+  border-radius: 100px;
+}
+
+.login {
+  position: relative;
+  float: right;
+}
+
+.login a {
+  position: absolute;
+  right: 15px;
+  top: -35px;
+  font-size: 30px;
+  color: rgb(240, 136, 9);
+  text-decoration: none;
+  font-family: serif;
+  margin: 15px;
+  padding-top: 30px;
+}
+
+.userName {
+  position: absolute;
+  display: flex;
+  right: 5px;
+  top: -35px;
+  font-size: 30px;
+  color: rgb(240, 136, 9);
+  text-decoration: none;
+  font-family: serif;
+  margin: 15px;
+  padding-top: 30px;
+}
+
+.off__music {
+  font-size: 38px;
+  color: white;
+  cursor: pointer;
+}
+
+.leafer1 {
+  position: absolute;
+  top: -8px;
+  left: -60px;
+  width: 30px;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  margin: 4px;
+  margin-top: 5px;
+  margin-left: 0px;
+  margin-bottom: 20px;
+
+  border: 0px;
+
+  background-color: #1e1e1e;
+}
+
+.leafer2 {
+  position: absolute;
+  top: -8px;
+  left: -35px;
+  width: 30px;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  margin: 4px;
+  margin-top: 5px;
+  margin-left: 0px;
+  margin-bottom: 20px;
+
+  border: 0px;
+
+  background-color: #1e1e1e;
+}
+
+.start__music {
+  cursor: pointer;
+  position: absolute;
+  left: -50px;
+  top: 23px;
+}
+
+.exit {
+  width: 2px;
+  height: 2px;
+}
+
+.avatar {
+  margin-top: 15px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  border: 0px;
+}

@@ -1,0 +1,30 @@
+.music__item {
+  position: relative;
+
+  cursor: pointer;
+
+  text-decoration: none;
+
+  width: 620px;
+  color: white;
+  margin-top: 3%;
+  margin-left: 25px;
+  font-size: 23px;
+  font-family: serif;
+}
+
+.avatar {
+  position: absolute;
+  width: 40px;
+  left: -25px;
+  top: -10px;
+  border-radius: 100px;
+}
+
+.invisible {
+  display: none;
+}
+
+.active {
+  color: rgb(240, 136, 9);
+}

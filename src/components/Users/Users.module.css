@@ -1,0 +1,77 @@
+.nav {
+  text-decoration: none;
+  color: grey;
+}
+
+.white {
+  color: white;
+}
+
+.flex {
+  display: flex;
+  margin-top: 20px;
+}
+
+.avatar {
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+}
+
+.text__data {
+  position: relative;
+  border: 2px solid;
+  border-radius: 20px;
+  width: 1100px;
+  margin-left: 20px;
+  font-size: 30px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.follow {
+  background-color: rgb(240, 136, 9);
+  width: 200px;
+}
+
+.unfollow {
+  background-color: black;
+  color: grey;
+  width: 200px;
+}
+
+.from {
+  position: absolute;
+  top: 115px;
+}
+
+.online {
+  float: right;
+  color: rgb(240, 136, 9);
+}
+
+.offline {
+  float: right;
+}
+
+.chosenPage {
+  font-weight: bold;
+  color: rgb(240, 136, 9);
+}
+
+.pages a {
+  cursor: pointer;
+  font-style: sans-serif;
+}
+
+.pages {
+  text-align: center;
+  font-size: 20px;
+}
+
+.button {
+  color: rgb(240, 136, 9);
+  border: 0px;
+  background-color: black;
+  font-size: 30px;
+}

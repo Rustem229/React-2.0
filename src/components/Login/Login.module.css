@@ -1,0 +1,39 @@
+.fieldContainer {
+  text-align: center;
+}
+
+.field {
+  position: relative;
+  width: 500px;
+  height: 20px;
+  background-color: #1e1e1e;
+  margin: 10px;
+  color: white;
+}
+
+.form {
+  margin: 150px;
+  margin-top: 50px;
+}
+
+.h1 {
+  font-size: 50px;
+}
+
+.eye {
+  position: absolute;
+  top: 290px;
+  cursor: pointer;
+}
+
+.button {
+  background-color: rgb(240, 136, 9);
+  border-color: black;
+  width: 200px;
+  height: 25px;
+  margin-top: 15px;
+}
+
+.prompt {
+  margin-top: 15px;
+}

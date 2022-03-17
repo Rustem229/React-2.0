@@ -1,0 +1,45 @@
+.textarea {
+  background-color: #1e1e1e;
+  border-width: 0;
+  color: white;
+}
+
+.button {
+  margin-bottom: 20px;
+  margin-top: 5px;
+  background-color: rgb(240, 136, 9);
+  border-width: 0;
+}
+
+.changedOptions {
+  position: relative;
+}
+
+.changedOptions button {
+  left: 547px;
+  height: 36px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.avatar__illustration {
+  width: 400px;
+  padding: 45px;
+  padding-bottom: 20px;
+}
+
+.name__illustration {
+  color: rgb(240, 136, 9);
+  font-family: serif;
+  font-size: 35px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.illustration {
+  margin-top: 20px;
+  float: right;
+  width: 500px;
+  background-color: #1e1e1e;
+  margin-bottom: 20px;
+}
