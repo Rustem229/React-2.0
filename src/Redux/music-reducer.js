@@ -4,31 +4,31 @@ const OFF_COVER = "OFF_COVER";
 let initialState = {
   musicData: [
     {
-      id: 4,
+      id: 0,
       src: "/assets/audio/One Punch Man - The Hero!.mp3",
       name: "One punch man - The Hero!",
       avatar: "/assets/img/MusicAvatars/OnePunchMan.png",
     },
     {
-      id: 0,
+      id: 1,
       src: "/assets/audio/Kesha - Blow.mp3",
       name: "Kesha - Blow",
       avatar: "/assets/img/MusicAvatars/Kesha.jpg",
     },
     {
-      id: 1,
+      id: 2,
       src: "/assets/audio/Кровосток - Куртец.mp3",
       name: "Кровосток - Куртец",
       avatar: "/assets/img/MusicAvatars/Кровосток - Цветы в вазе.png",
     },
     {
-      id: 2,
+      id: 3,
       src: "/assets/audio/GONE.Fludd – ПАЦАНЫ II.mp3",
       name: "GONE.Fludd – ПАЦАНЫ II",
       avatar: "/assets/img/MusicAvatars/GONE.Fludd - ПАЦАНЫ II.png",
     },
     {
-      id: 3,
+      id: 4,
       src: "/assets/audio/Oxxxymiron – Город под подошвой.mp3",
       name: "Oxxxymiron – Город под подошвой",
       avatar: "/assets/img/MusicAvatars/Oxxxymiron - Город под подошвой.png",

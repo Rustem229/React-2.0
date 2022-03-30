@@ -2,16 +2,26 @@ import "./App.css";
 import React, { Component } from "react";
 import Navbar from "./components/Navbar/Navbar";
 import { Route } from "react-router-dom";
-import UsersContainer from "./components/Users/UsersContainer";
-import ProfileContainer from "./components/Profile/ProfileContainer";
 import HeaderContainer from "./components/Header/HeaderContainer";
-import SettingContainer from "./components/Setting/SettingContainer";
-import MusicContainer from "./components/Music/Music/MusicContainer";
-import Login from "./components/Login/Login";
 import { initializeApp } from "./Redux/app-reducer";
 import { connect } from "react-redux";
+import { withSuspense } from "./hoc/withSuspense";
+
+const ProfileContainer = React.lazy(() =>
+  import("./components/Profile/ProfileContainer")
+);
 const DialogsContainer = React.lazy(() =>
   import("./components/Dialogs/DialogsContainer")
+);
+const UsersContainer = React.lazy(() =>
+  import("./components/Users/UsersContainer")
+);
+const MusicContainer = React.lazy(() =>
+  import("./components/Music/Music/MusicContainer")
+);
+const Login = React.lazy(() => import("./components/Login/Login"));
+const SettingContainer = React.lazy(() =>
+  import("./components/Setting/SettingContainer")
 );
 
 class App extends Component {
@@ -28,54 +38,15 @@ class App extends Component {
             <Navbar />
           </div>
           <div>
-            <Route
-              path="/dialogs"
-              render={() => (
-                <React.Suspense fallback={<div>Loading...</div>}>
-                  <DialogsContainer />
-                </React.Suspense>
-              )}
-            />
+            <Route path="/dialogs" render={withSuspense(DialogsContainer)} />
             <Route
               path="/profile/:userId?"
-              render={() => <ProfileContainer />}
+              render={withSuspense(ProfileContainer)}
             />
-            <Route
-              path="/users"
-              render={() => (
-                <React.Suspense fallback={<div>Loading...</div>}>
-                  {" "}
-                  <UsersContainer />{" "}
-                </React.Suspense>
-              )}
-            />
-            <Route
-              path="/music"
-              render={() => (
-                <React.Suspense fallback={<div>Loading...</div>}>
-                  {" "}
-                  <MusicContainer />{" "}
-                </React.Suspense>
-              )}
-            />
-            <Route
-              path="/settings"
-              render={() => (
-                <React.Suspense fallback={<div>Loading...</div>}>
-                  {" "}
-                  <SettingContainer />{" "}
-                </React.Suspense>
-              )}
-            />
-            <Route
-              path="/login"
-              render={() => (
-                <React.Suspense fallback={<div>Loading...</div>}>
-                  {" "}
-                  <Login />{" "}
-                </React.Suspense>
-              )}
-            />
+            <Route path="/users" render={withSuspense(UsersContainer)} />
+            <Route path="/music" render={withSuspense(MusicContainer)} />
+            <Route path="/settings" render={withSuspense(SettingContainer)} />
+            <Route path="/login" render={withSuspense(Login)} />
           </div>
         </div>
       </div>
