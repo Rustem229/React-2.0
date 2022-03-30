@@ -4,10 +4,16 @@ const OFF_COVER = "OFF_COVER";
 let initialState = {
   musicData: [
     {
+      id: 4,
+      src: "/assets/audio/One Punch Man - The Hero!.mp3",
+      name: "One punch man - The Hero!",
+      avatar: "/assets/img/MusicAvatars/OnePunchMan.png",
+    },
+    {
       id: 0,
-      src: "/assets/audio/Rammstein - DEUTSCHLAND.mp3",
-      name: "Rammstein - Deutschland",
-      avatar: "/assets/img/MusicAvatars/Rammstein - Deutschland.png",
+      src: "/assets/audio/Kesha - Blow.mp3",
+      name: "Kesha - Blow",
+      avatar: "/assets/img/MusicAvatars/Kesha.jpg",
     },
     {
       id: 1,
@@ -27,12 +33,7 @@ let initialState = {
       name: "Oxxxymiron – Город под подошвой",
       avatar: "/assets/img/MusicAvatars/Oxxxymiron - Город под подошвой.png",
     },
-    {
-      id: 4,
-      src: "/assets/audio/One Punch Man - The Hero!.mp3",
-      name: "One punch man - The Hero!",
-      avatar: "/assets/img/MusicAvatars/OnePunchMan.png",
-    },
+
     {
       id: 5,
       src: "/assets/audio/Кровосток - Душ.mp3",
